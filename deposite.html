@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bank.js"></script>
+    <title>Deposite form</title>
+    <style>
+        .input-group {
+    width: 55% !important;
+    margin-left: 22% !important;
+    
+  }
+  </style>
+</head>
+<body style="background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );"><br><br>
+    <div class="container-fluid">
+        <center><div class="col-md-5 mt-5 rounded-5" style=" background-color: blueviolet; border-style: double;">
+            <h1 style="font-family: cursive; text-decoration-color: black; text-align: center;">Deposite form</h1>
+            <form style="text-align: center; padding-top: 40px; padding-bottom: 20px;">
+                <label class="form-label"><b>Account holder name</b></label>
+                <input type="text" class="form-control input-group" id="hh" placeholder="full name"><br>
+                <label class="form-label"><b>account number</b></label>
+                <input type="number" class="form-control input-group" id="aa" placeholder="account number"><br>
+                <label class="form-label"><b>amount</b></label> 
+                <input type="number" class="form-control input-group" id="am" placeholder="amount"> <br> 
+               <button onclick="deposite()" class="btn btn-success rounded-5  p-2">submit</button> 
+               </form>                   
+        </div></center>
+
+    </div>
+</body>
+</html>
